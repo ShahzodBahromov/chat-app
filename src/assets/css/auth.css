@@ -1,0 +1,18 @@
+div {
+	width:  600px;
+	border-radius: 8px;
+	padding: 30px;
+	box-shadow: 0 0 15px 1px rgba(0,0,0,0.5);
+}
+
+form {
+	display: flex;
+	flex-wrap: wrap;
+	flex-direction: column;
+}
+
+input, select, button {
+	padding: 5px;
+	font-size: 20px;
+	margin-bottom: 10px;
+}
