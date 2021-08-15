@@ -2,7 +2,7 @@ import http from 'http'
 import path from 'path'
 import fs from 'fs'
 import Express from './lib/express.js'
-import { PORT, host } from './config.js'
+import { PORT } from './config.js'
 
 const server = http.createServer( (req, res) => {
 	res.setHeader('Access-Control-Allow-Origin','*')
@@ -20,4 +20,4 @@ const server = http.createServer( (req, res) => {
 
 })
 
-server.listen(PORT, () => console.log('http://' + host + ':' + PORT))
+server.listen(PORT, () => console.log('http://'+ ':' + PORT))
